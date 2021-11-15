@@ -1,26 +1,26 @@
-.work-section {
+.job-section {
   padding-top: 0;
 }
-.job-title {
+.job__title {
   text-align: center;
   margin-top: 94px;
   margin-bottom: 50px;
 }
-.job-list {
+.job__list {
   display: flex;
 }
-.job-item:not(:last-child) {
+.job__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.img-container {
+.job__img--container {
   position: relative;
   overflow: hidden;
   width: 370px;
   height: 294px;
 }
 
-.img-tag-container {
+.img-container__tag {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,7 +32,7 @@
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.img-tag {
+.img-container__text {
   font-weight: 700;
   text-transform: uppercase;
 

@@ -1,0 +1,31 @@
+// ============Utils============//
+
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+// ============Base============//
+
+@import './base/base-styles';
+
+// ============Components============//
+
+@import './components/_container';
+@import './components/_section';
+@import './components/_section-title';
+@import './components/_social-icon';
+@import './components/_backdrop';
+@import './components/_modal';
+@import './components/_logo';
+
+// ============Layouts============//
+
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/_advantage';
+@import './layouts/_specificity';
+@import './layouts/_team';
+@import './layouts/_customers';
+@import './layouts/_footer';
+@import './layouts/_filter';
+
+// ============end============//
