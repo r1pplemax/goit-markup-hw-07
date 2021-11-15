@@ -1,0 +1,40 @@
+.work-section {
+  padding-top: 0;
+}
+.job-title {
+  text-align: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+.job-list {
+  display: flex;
+}
+.job-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+  width: 370px;
+  height: 294px;
+}
+
+.img-tag-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.img-tag {
+  font-weight: 700;
+  text-transform: uppercase;
+
+  color: var(--logo-footer-color);
+}
